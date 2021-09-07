@@ -4,5 +4,5 @@ while 0 == 0:
     number = input("Enter in a number to crunch: ")
     print("Crunching...")
     number = int(number)
-    number2 = (((number * number) * 2) - number + (number * 2)) * number * (number * number) - (number * number - number * (number * number)) - (number * 2) * (number * 2) - (number - 6) * (number * number - number) - (number * 3 - number)
+    number2 = (((number * number) * 2) - number + (number * 2)) * number * (number * number) - (number * number - number * (number * number)) - (number * 2) * (number * 2) - (number - 6) * (number * number - number) * (number * 3 - number)
     print(number2)
